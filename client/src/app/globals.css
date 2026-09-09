@@ -1,2 +1,23 @@
 @import "tailwindcss";
 
+@theme{
+    --color-cream: #FAF6F0;
+    --color-brown: #8B6347;
+
+    --color-text-dark: #3D2B1F;
+    --color-text-mid: #7A5C48;
+    --color-text-light: #B09080;
+}
+
+#intro-page{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
+    min-width: 100vw;
+}
+
+.intro-title{
+    font-weight: 900;
+}
